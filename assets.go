@@ -26,6 +26,7 @@ var SoftwareIcon = GetSingleImage("Assets/Icons/myapp.png")
 
 // Other Part
 var OrangeCat = GetSingleImage("Assets/Others/main.png")
+var Door = GetSingleImage("Assets/Others/door.png")
 
 func GetSingleImage(name string) *ebiten.Image {
 	file, err := assets.Open(name)
