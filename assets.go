@@ -19,6 +19,7 @@ var GopherLeft = GetSingleImage("Assets/GopherAssets/left.png")
 
 // Background Part
 var GopherWalkBackground = GetSingleImage("Assets/Backgrounds/GopherWalk.png")
+var GopherWalkBackground2 = GetSingleImage("Assets/Backgrounds/GopherWalk2.png")
 var GopherJumpBackground = GetSingleImage("Assets/Backgrounds/GopherJump.png")
 
 // Icon Part
