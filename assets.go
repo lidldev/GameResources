@@ -29,6 +29,11 @@ var SoftwareIcon = GetSingleImage("Assets/Icons/myapp.png")
 var OrangeCat = GetSingleImage("Assets/Others/main.png")
 var Door = GetSingleImage("Assets/Others/door.png")
 
+// Font part
+
+//go:embed Assets/fonts/Honk-Regular.ttf
+var Font_ttf []byte
+
 func GetSingleImage(name string) *ebiten.Image {
 	file, err := assets.Open(name)
 	if err != nil {
