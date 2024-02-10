@@ -17,6 +17,9 @@ var GopherIdle = GetSingleImage("Assets/GopherAssets/mainchar.png")
 var GopherRight = GetSingleImage("Assets/GopherAssets/right.png")
 var GopherLeft = GetSingleImage("Assets/GopherAssets/left.png")
 
+// Chars part
+var AmongUsChar = GetSingleImage("Assets/chars/impostor.png")
+
 // Background Part
 var GopherWalkBackground = GetSingleImage("Assets/Backgrounds/GopherWalk.png")
 var GopherWalkBackground2 = GetSingleImage("Assets/Backgrounds/GopherWalk2.png")
