@@ -37,6 +37,9 @@ var Door = GetSingleImage("Assets/Others/door.png")
 //go:embed Assets/fonts/Honk-Regular.ttf
 var Font_ttf []byte
 
+//go:embed Assets/fonts/OpenSans-Medium.ttf
+var Sans_ttf []byte
+
 func GetSingleImage(name string) *ebiten.Image {
 	file, err := assets.Open(name)
 	if err != nil {
